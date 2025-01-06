@@ -12,6 +12,9 @@ import { store } from './Redux/Store.js'
 import { Provider } from 'react-redux'
 import Products, { githubInfoLoader } from './components/Github/Products.jsx'
 import Cart from './components/Cart/cart.jsx'
+import PrivacyPolicy from './components/PrivacyPolicy.jsx'
+import Login from './components/Authentication/Login.jsx'
+import Signup from './components/Authentication/Signup.jsx'
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -20,6 +23,9 @@ const router = createBrowserRouter(
       <Route path='about' element={<About />} />
       <Route path='contact' element={<Contact />} />
       <Route path='cart' element={<Cart />} />
+      <Route path='login' element={<Login />} />
+      <Route path='signup' element={<Signup />} />
+
 
       <Route path='user/:userid' element={<User />} />
       <Route
@@ -27,6 +33,8 @@ const router = createBrowserRouter(
         path='products'
         element={<Products />}
       />
+      <Route path='policy' element={<PrivacyPolicy />} />
+
     </Route>
   )
 )

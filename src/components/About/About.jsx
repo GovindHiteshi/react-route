@@ -4,7 +4,7 @@ export default function About() {
     return (
         <div className="bg-gray-50 font-sans antialiased">
             {/* Header Section */}
-            <header className="bg-blue-600 text-white p-6">
+            {/* <header className="bg-blue-600 text-white p-6">
                 <nav className="flex items-center justify-between max-w-7xl mx-auto">
                     <div className="text-2xl font-bold">My App</div>
                     <div className="space-x-4">
@@ -13,7 +13,7 @@ export default function About() {
                         <a href="#contact" className="hover:text-blue-200">Contact</a>
                     </div>
                 </nav>
-            </header>
+            </header> */}
 
             <section className="flex items-center justify-center bg-gradient-to-r from-blue-500 to-teal-500 h-screen text-center text-white">
                 <div className="space-y-4">

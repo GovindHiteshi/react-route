@@ -7,8 +7,8 @@ export default function Home() {
             <div className="relative overflow-hidden
              text-black rounded-lg sm:mx-16 mx-4 sm:py-16 py-8 bg-gradient-to-r grid sm:grid-cols-2 lg:mx-10">
 
-                <div className="inset-0 w-full sm:my-20 sm:pt-1 pt-12 h-full ">
-                    <img className="w-96 mx-auto" src="https://i.ibb.co/5BCcDYB/Remote2.png" alt="image1" />
+                <div className="inset-0 w-full sm:my-20 sm:pt-1 pt-12 h-full">
+                    <img className="w-2/3		 mx-auto" src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=2070" alt="image1" />
                 </div>
 
                 <div className="relative z-10 max-w-screen-xl px-4 pb-20 pt-10 sm:py-24 mx-auto sm:px-6 lg:px-8">
